@@ -15,6 +15,7 @@
 #include <sys/stat.h>
 #include <sys/mman.h>
 #include <math.h>
+#include <unistd.h>
 
 struct option long_options[] = {
     {"enc", 1, NULL, 'e'},
@@ -58,31 +59,31 @@ int main(int argc, char* argv[]) {
         switch( c )
         {
             case 'e':
-                printf("option e\n");
+                //printf("option e\n");
                 strncpy(encodeFileName, optarg, strlen(optarg));
-                printf("encode file name: %s\n", encodeFileName);
+                //printf("encode file name: %s\n", encodeFileName);
                 encodeOption = 1;
                 break;
             case 'd':
-                printf("option d\n");
+                //printf("option d\n");
                 strncpy(decodeFileName, optarg, strlen(optarg));
-                printf("decode file name: %s\n", decodeFileName);
+                //printf("decode file name: %s\n", decodeFileName);
                 decodeOption = 1;
                 break;
                 
             case 'o':
-                printf("option: o\n");
+                //printf("option: o\n");
                 strncpy(outputFileName, optarg, strlen(optarg));
-                printf("output file name: %s\n", outputFileName);
+                //printf("output file name: %s\n", outputFileName);
                 break;
                 
             case '?':
                 printf("invalid option >:[\n");
-                printf("use '--help for more options'");
+                //printf("use '--help for more options'");
                 break;
             default:
                 printf("invalid option >:[\n");
-                printf("use '--help for more options'");
+                //printf("use '--help for more options'");
                 break;
         }
     }
