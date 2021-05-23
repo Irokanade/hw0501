@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E638312A265794AE00D2D5B0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E6383129265794AE00D2D5B0 /* main.c */; };
+		E6383131265794C400D2D5B0 /* hw0501.c in Sources */ = {isa = PBXBuildFile; fileRef = E6383130265794C400D2D5B0 /* hw0501.c */; };
+		E638313326579A9700D2D5B0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E638313226579A9700D2D5B0 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		E6383126265794AE00D2D5B0 /* hw0501 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw0501; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6383129265794AE00D2D5B0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E6383130265794C400D2D5B0 /* hw0501.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hw0501.c; sourceTree = "<group>"; };
+		E638313226579A9700D2D5B0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		E6383128265794AE00D2D5B0 /* hw0501 */ = {
 			isa = PBXGroup;
 			children = (
-				E6383129265794AE00D2D5B0 /* main.c */,
+				E6383130265794C400D2D5B0 /* hw0501.c */,
+				E638313226579A9700D2D5B0 /* Makefile */,
 			);
 			path = hw0501;
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E638312A265794AE00D2D5B0 /* main.c in Sources */,
+				E638313326579A9700D2D5B0 /* Makefile in Sources */,
+				E6383131265794C400D2D5B0 /* hw0501.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
